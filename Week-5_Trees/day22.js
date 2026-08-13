@@ -11,8 +11,6 @@
 // Exactly one is null → they're different.
 // Both exist → their values must match, and their left and right subtrees must match.
 
-// That's it. No need to overcomplicate this one.
-
 function isSameTree(p, q) {
   if (!p && !q) return true;
 
